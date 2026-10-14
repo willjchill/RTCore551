@@ -1,0 +1,53 @@
+# Unity-generated files
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+MemoryCaptures/
+Recordings/
+
+# Unity and IDE-generated project files
+*.csproj
+*.sln
+*.slnx
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svclog
+*.pdb
+*.mdb
+.vs/
+.idea/
+
+# Unity package exports are deliverables only when deliberately added.
+*.unitypackage
+
+# FPGA tool output and simulation artifacts
+!RTCore/logs/
+RTCore/logs/*
+!RTCore/logs/README.md
+!RTCore/logs/.gitkeep
+**/.Xil/
+**/.cache/
+**/.runs/
+**/.sim/
+**/.gen/
+**/.hw/
+**/ip_user_files/
+*.jou
+*.wdb
+*.vcd
+*.fst
+*.vvp
+*.bit
+*.ltx
+*.dcp
+
+# Scene reports are regenerated from the source scene. Keep .rtscene and .mem
+# files because they are useful deterministic inputs for FPGA simulation.
+RTExport/*_report.txt
+tools/scene_exporter_bundle/RTExport/*_report.txt
